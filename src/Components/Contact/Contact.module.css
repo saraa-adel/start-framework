@@ -1,0 +1,25 @@
+.star{
+     position: relative;
+}
+.star:before{
+     content:" ";
+     position: absolute;
+     right: 35px;
+     width: 80px;
+     height: 4px;
+     background-color: #2C3E50;
+}
+.star:after{
+     content:" ";
+     position: absolute;
+     left: 35px;
+     width: 80px;
+     height: 4px;
+     background-color: #2C3E50;
+}
+.w60{
+     width: 58%;
+}
+.borderColor{
+     border-color: #DEE2E6;
+}

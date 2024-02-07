@@ -1,0 +1,47 @@
+.star{
+  position: relative;
+}
+.star:before{
+  content:" ";
+  position: absolute;
+  right: 35px;
+  width: 80px;
+  height: 4px;
+  background-color: #2C3E50;
+}
+.star:after{
+  content:" ";
+  position: absolute;
+  left: 35px;
+  width: 80px;
+  height: 4px;
+  background-color: #2C3E50;
+}
+.layer{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(26, 188, 156, 0.9);
+  opacity: 0;
+  transition: 0.6s;
+}
+.layer:hover{
+  opacity: 1;
+}
+.font96{
+  font-size: 96px;
+}
+.imgLayer{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999999;
+  background-color: rgba(0, 120, 255, 0.25)
+}
+.w40{
+  width: 600px;
+}
